@@ -15,4 +15,16 @@ public class People {
     public  void eat(){
         System.out.println("eating...");
     }
+
+    public  boolean equals(Object p){
+        if(p instanceof People someoneAge){
+            return  this.age==someoneAge.age;
+
+
+        }else {
+            return false;
+
+        }
+    }
+
 }

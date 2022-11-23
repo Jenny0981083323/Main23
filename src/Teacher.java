@@ -11,4 +11,5 @@ public class Teacher extends   People {
         System.out.println("teaching ...");
     }
 
+
 }

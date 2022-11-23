@@ -8,5 +8,9 @@ public class Student extends People{
     public  void learn(){
         System.out.println("learning...");
     }
+    @Override
+    public  void sit(){
+        System.out.println("Sitting in the classroom");
+    }
 
 }
